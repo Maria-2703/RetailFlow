@@ -17,7 +17,7 @@ Retail Flow is an intelligent computer vision system designed to transform physi
 | **Javier Hernández Pérez** | Data Scientist |
 | **Ashley Harris Velasquez** | Data Analyst |
 | **Carlota Prósper Hernández** | Data Engineer |
-| **Vicente Vazquez** | Data Engineer |
+| **Vicente Vazquez** | Data Scientist |
 
 ---
 
