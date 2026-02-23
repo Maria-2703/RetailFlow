@@ -10,14 +10,14 @@ Retail Flow is an intelligent computer vision system designed to transform physi
 **University:** Universidad Europea  
 **Professor:** Alejandro Perdiguero  
 
-| Name | Role |
-| :--- | :--- |
-| **María Parra Ramos** | Software Engineer |
-| **Santiago Campos Snels** | Data Engineer|
-| **Javier Hernández Pérez** | Data Scientist |
-| **Ashley Harris Velasquez** | Data Analyst |
-| **Carlota Prósper Hernández** | Data Engineer |
-| **Vicente Vazquez** | Data Scientist |
+| Name | Role | Position |
+| :--- | :--- |:--- |
+| **María Parra Ramos** | Software  Engineer | **CEO** |
+| **Santiago Campos Snels** | Data Engineer|**Project Manager** |
+| **Carlota Prósper Hernández** | Data Engineer | Worker |
+| **Javier Hernández Pérez** | Data Scientist | Worker |
+| **Vicente Vazquez** | Data Scientist | Worker |
+| **Ashley Harris Velasquez** | Data Analyst | Worker |
 
 ---
 
