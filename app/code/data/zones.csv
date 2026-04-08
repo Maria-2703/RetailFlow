@@ -1,0 +1,31 @@
+zone_id,store_id,zone_name,zone_type,coord_lims
+ENTR_SRCL,SRCL,Entrance,Entrance,None
+WM_SRCL,SRCL,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MN_SRCL,SRCL,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KD_SRCL,SRCL,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+CO_SRCL,SRCL,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FR_SRCL,SRCL,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTR_SRGV,SRGV,Entrance,Entrance,None
+WM_SRGV,SRGV,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MN_SRGV,SRGV,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KD_SRGV,SRGV,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+CO_SRGV,SRGV,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FR_SRGV,SRGV,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTR_SRAQ,SRAQ,Entrance,Entrance,None
+WM_SRAQ,SRAQ,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MN_SRAQ,SRAQ,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KD_SRAQ,SRAQ,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+CO_SRAQ,SRAQ,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FR_SRAQ,SRAQ,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTR_SRBN,SRBN,Entrance,Entrance,None
+WM_SRBN,SRBN,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MN_SRBN,SRBN,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KD_SRBN,SRBN,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+CO_SRBN,SRBN,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FR_SRBN,SRBN,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTR_SRSL,SRSL,Entrance,Entrance,None
+WM_SRSL,SRSL,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MN_SRSL,SRSL,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KD_SRSL,SRSL,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+CO_SRSL,SRSL,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FR_SRSL,SRSL,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
