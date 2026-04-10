@@ -1,31 +1,31 @@
 camera_id,zone_id,model,installation_date,condition,lims
-ENTRCM_SRCL,ENTR_SRCL,Bullet,2025-08-12,Error,None
-WMCM_SRCL,WM_SRCL,Fisheye,2024-07-23,Optimal,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
-MNCM_SRCL,MN_SRCL,Fisheye,2024-05-02,Needs Maintenance,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
-KDCM_SRCL,KD_SRCL,Fisheye,2024-12-21,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
-COCM_SRCL,CO_SRCL,Turret,2024-06-05,Good,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
-FRCM_SRCL,FR_SRCL,Dome,2024-11-20,Optimal,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
-ENTRCM_SRGV,ENTR_SRGV,Bullet,2025-02-03,Optimal,None
-WMCM_SRGV,WM_SRGV,Fisheye,2025-05-21,Optimal,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
-MNCM_SRGV,MN_SRGV,Fisheye,2025-10-17,Error,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
-KDCM_SRGV,KD_SRGV,Fisheye,2025-06-04,Error,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
-COCM_SRGV,CO_SRGV,Turret,2025-12-15,Error,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
-FRCM_SRGV,FR_SRGV,Dome,2025-06-27,Needs Maintenance,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
-ENTRCM_SRAQ,ENTR_SRAQ,Bullet,2025-09-01,Good,None
-WMCM_SRAQ,WM_SRAQ,Fisheye,2025-11-03,Error,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
-MNCM_SRAQ,MN_SRAQ,Fisheye,2026-01-21,Needs Maintenance,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
-KDCM_SRAQ,KD_SRAQ,Fisheye,2024-04-11,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
-COCM_SRAQ,CO_SRAQ,Turret,2024-12-18,Optimal,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
-FRCM_SRAQ,FR_SRAQ,Dome,2025-05-01,Error,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
-ENTRCM_SRBN,ENTR_SRBN,Bullet,2025-12-01,Good,None
-WMCM_SRBN,WM_SRBN,Fisheye,2026-01-27,Error,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
-MNCM_SRBN,MN_SRBN,Fisheye,2026-03-17,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
-KDCM_SRBN,KD_SRBN,Fisheye,2024-07-27,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
-COCM_SRBN,CO_SRBN,Turret,2025-03-11,Optimal,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
-FRCM_SRBN,FR_SRBN,Dome,2025-07-24,Error,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
-ENTRCM_SRSL,ENTR_SRSL,Bullet,2024-08-07,Optimal,None
-WMCM_SRSL,WM_SRSL,Fisheye,2024-11-17,Optimal,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
-MNCM_SRSL,MN_SRSL,Fisheye,2026-02-24,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
-KDCM_SRSL,KD_SRSL,Fisheye,2024-10-14,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
-COCM_SRSL,CO_SRSL,Turret,2025-05-07,Error,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
-FRCM_SRSL,FR_SRSL,Dome,2025-08-15,Good,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTRCM_SRCL,ENTR_SRCL,Bullet,2025-10-25,Needs Maintenance,None
+WMCM_SRCL,WM_SRCL,Fisheye,2024-04-12,Optimal,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MNCM_SRCL,MN_SRCL,Fisheye,2025-09-02,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KDCM_SRCL,KD_SRCL,Fisheye,2025-08-30,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+COCM_SRCL,CO_SRCL,Turret,2024-09-16,Needs Maintenance,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FRCM_SRCL,FR_SRCL,Dome,2024-12-06,Optimal,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTRCM_SRGV,ENTR_SRGV,Bullet,2026-01-27,Good,None
+WMCM_SRGV,WM_SRGV,Fisheye,2024-12-22,Needs Maintenance,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MNCM_SRGV,MN_SRGV,Fisheye,2024-07-12,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KDCM_SRGV,KD_SRGV,Fisheye,2026-03-09,Error,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+COCM_SRGV,CO_SRGV,Turret,2025-08-13,Needs Maintenance,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FRCM_SRGV,FR_SRGV,Dome,2025-12-21,Optimal,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTRCM_SRAQ,ENTR_SRAQ,Bullet,2024-06-27,Needs Maintenance,None
+WMCM_SRAQ,WM_SRAQ,Fisheye,2025-09-24,Needs Maintenance,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MNCM_SRAQ,MN_SRAQ,Fisheye,2025-11-27,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KDCM_SRAQ,KD_SRAQ,Fisheye,2025-12-01,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+COCM_SRAQ,CO_SRAQ,Turret,2026-03-12,Needs Maintenance,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FRCM_SRAQ,FR_SRAQ,Dome,2025-04-20,Good,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTRCM_SRBN,ENTR_SRBN,Bullet,2025-02-15,Good,None
+WMCM_SRBN,WM_SRBN,Fisheye,2026-02-15,Good,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MNCM_SRBN,MN_SRBN,Fisheye,2024-07-18,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KDCM_SRBN,KD_SRBN,Fisheye,2024-10-15,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+COCM_SRBN,CO_SRBN,Turret,2025-04-05,Good,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FRCM_SRBN,FR_SRBN,Dome,2024-05-10,Good,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
+ENTRCM_SRSL,ENTR_SRSL,Bullet,2025-01-19,Optimal,None
+WMCM_SRSL,WM_SRSL,Fisheye,2024-09-11,Optimal,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}"
+MNCM_SRSL,MN_SRSL,Fisheye,2026-01-11,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}"
+KDCM_SRSL,KD_SRSL,Fisheye,2026-01-04,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}"
+COCM_SRSL,CO_SRSL,Turret,2024-12-03,Optimal,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}"
+FRCM_SRSL,FR_SRSL,Dome,2024-08-23,Optimal,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}"
