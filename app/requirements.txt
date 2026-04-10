@@ -1,2 +1,4 @@
 pandas
 Faker
+sqlalchemy
+dotenv

@@ -1,0 +1,9 @@
+--Traffic DataFrame Built--
+Built traffic dataframe with 97 records at 2026-04-10 03:01:28.719705
+--Filtered Detections--
+Filtered detections at 2026-04-10 03:01:28.721160
+Filtered 720 detections with confidence > 0.6
+--Data Insertion--
+Inserted 720 records into detections table at 2026-04-10 03:01:28.935525
+--Data Insertion--
+Inserted 97 records into traffic table at 2026-04-10 03:01:29.010203
