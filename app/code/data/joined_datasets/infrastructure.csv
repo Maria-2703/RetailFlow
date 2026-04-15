@@ -1,0 +1,31 @@
+store_id,store_name,city,zone_id,zone_name,zone_type,zone_lims,camera_id,model,camera_condition,camera_lims,installation_date,m2,max_capacity
+SRCL,Sara Colon,Valencia,ENTR_SRCL,Entrance,Entrance,,ENTRCM_SRCL,Bullet,Needs Maintenance,,2025-10-25,585,290
+SRCL,Sara Colon,Valencia,WM_SRCL,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",WMCM_SRCL,Fisheye,Optimal,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",2024-04-12,585,290
+SRCL,Sara Colon,Valencia,MN_SRCL,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",MNCM_SRCL,Fisheye,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",2025-09-02,585,290
+SRCL,Sara Colon,Valencia,KD_SRCL,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",KDCM_SRCL,Fisheye,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",2025-08-30,585,290
+SRCL,Sara Colon,Valencia,CO_SRCL,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",COCM_SRCL,Turret,Needs Maintenance,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",2024-09-16,585,290
+SRCL,Sara Colon,Valencia,FR_SRCL,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",FRCM_SRCL,Dome,Optimal,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",2024-12-06,585,290
+SRGV,Sara Gran Via,Valencia,ENTR_SRGV,Entrance,Entrance,,ENTRCM_SRGV,Bullet,Good,,2026-01-27,585,290
+SRGV,Sara Gran Via,Valencia,WM_SRGV,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",WMCM_SRGV,Fisheye,Needs Maintenance,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",2024-12-22,585,290
+SRGV,Sara Gran Via,Valencia,MN_SRGV,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",MNCM_SRGV,Fisheye,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",2024-07-12,585,290
+SRGV,Sara Gran Via,Valencia,KD_SRGV,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",KDCM_SRGV,Fisheye,Error,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",2026-03-09,585,290
+SRGV,Sara Gran Via,Valencia,CO_SRGV,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",COCM_SRGV,Turret,Needs Maintenance,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",2025-08-13,585,290
+SRGV,Sara Gran Via,Valencia,FR_SRGV,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",FRCM_SRGV,Dome,Optimal,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",2025-12-21,585,290
+SRAQ,Sara Aqua,Valencia,ENTR_SRAQ,Entrance,Entrance,,ENTRCM_SRAQ,Bullet,Needs Maintenance,,2024-06-27,585,290
+SRAQ,Sara Aqua,Valencia,WM_SRAQ,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",WMCM_SRAQ,Fisheye,Needs Maintenance,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",2025-09-24,585,290
+SRAQ,Sara Aqua,Valencia,MN_SRAQ,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",MNCM_SRAQ,Fisheye,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",2025-11-27,585,290
+SRAQ,Sara Aqua,Valencia,KD_SRAQ,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",KDCM_SRAQ,Fisheye,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",2025-12-01,585,290
+SRAQ,Sara Aqua,Valencia,CO_SRAQ,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",COCM_SRAQ,Turret,Needs Maintenance,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",2026-03-12,585,290
+SRAQ,Sara Aqua,Valencia,FR_SRAQ,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",FRCM_SRAQ,Dome,Good,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",2025-04-20,585,290
+SRBN,Sara Bonaire,Valencia,ENTR_SRBN,Entrance,Entrance,,ENTRCM_SRBN,Bullet,Good,,2025-02-15,585,290
+SRBN,Sara Bonaire,Valencia,WM_SRBN,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",WMCM_SRBN,Fisheye,Good,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",2026-02-15,585,290
+SRBN,Sara Bonaire,Valencia,MN_SRBN,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",MNCM_SRBN,Fisheye,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",2024-07-18,585,290
+SRBN,Sara Bonaire,Valencia,KD_SRBN,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",KDCM_SRBN,Fisheye,Optimal,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",2024-10-15,585,290
+SRBN,Sara Bonaire,Valencia,CO_SRBN,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",COCM_SRBN,Turret,Good,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",2025-04-05,585,290
+SRBN,Sara Bonaire,Valencia,FR_SRBN,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",FRCM_SRBN,Dome,Good,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",2024-05-10,585,290
+SRSL,Sara Saler,Valencia,ENTR_SRSL,Entrance,Entrance,,ENTRCM_SRSL,Bullet,Optimal,,2025-01-19,585,290
+SRSL,Sara Saler,Valencia,WM_SRSL,Women,Women clothes,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",WMCM_SRSL,Fisheye,Optimal,"{'x_min': 15, 'x_max': 28, 'y_min': 3, 'y_max': 15}",2024-09-11,585,290
+SRSL,Sara Saler,Valencia,MN_SRSL,Men,Men clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",MNCM_SRSL,Fisheye,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 0, 'y_max': 8}",2026-01-11,585,290
+SRSL,Sara Saler,Valencia,KD_SRSL,Kids,Kid clothes,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",KDCM_SRSL,Fisheye,Good,"{'x_min': 28, 'x_max': 40, 'y_min': 8, 'y_max': 15}",2026-01-04,585,290
+SRSL,Sara Saler,Valencia,CO_SRSL,Checkout,Checkout,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",COCM_SRSL,Turret,Optimal,"{'x_min': 15, 'x_max': 22, 'y_min': 0, 'y_max': 3}",2024-12-03,585,290
+SRSL,Sara Saler,Valencia,FR_SRSL,Fitting Rooms,Fitting Rooms,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",FRCM_SRSL,Dome,Optimal,"{'x_min': 7, 'x_max': 15, 'y_min': 5, 'y_max': 10}",2024-08-23,585,290
