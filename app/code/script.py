@@ -203,6 +203,89 @@ def build_traffic_dataframe_simple(detections, zones, time_freq="1h"):
 
     return traffic
 
+def build_joined_datasets(df_detections, df_traffic, df_stores, df_zones, df_cameras, df_sales, df_soldproducts):
+    # infrastructure dataset (camera + zones + stores)
+    infrastructure = (
+        df_cameras.merge(df_zones, on='zone_id', how='left')
+               .merge(df_stores, on='store_id', how='left')
+               .rename(columns={
+                   'lims': 'camera_lims',
+                   'coord_lims': 'zone_lims',
+                   'condition': 'camera_condition'  # to avoid confusions
+               })
+    )
+    # reorder
+    infrastructure = infrastructure[[
+        'store_id', 'store_name', 'city',
+        'zone_id', 'zone_name', 'zone_type', 'zone_lims',
+        'camera_id', 'model','camera_condition','camera_lims', 
+        'installation_date', 'm2', 'max_capacity'
+    ]]
+
+    # revenue dataset (soldproducts + sales + stores)
+    revenue = (
+        df_soldproducts.merge(df_sales, on='ticket_id', how='inner')
+                    .merge(df_stores, on='store_id', how='left')
+                    .rename(columns={
+                        'name': 'product_name',
+                        'category': 'product_category',
+                        'price': 'product_price'
+                    })
+    )
+    # reorder
+    revenue = revenue[[
+        'ticket_id', 'timestamp',
+        'store_id','store_name', 'city',
+        'product_id', 'product_name', 'product_category', 'product_price',
+        'total_euros', 'product_amount',
+        'checkout_number', 'zone_id',
+        'm2', 'max_capacity'
+    ]]
+
+    # validation dataset
+    df_detections['timestamp'] = pd.to_datetime(df_detections['timestamp']) # datetime format for merging
+    df_traffic['date_time'] = pd.to_datetime(df_traffic['date_time'])
+
+    # create the hour_key for the merge
+    df_detections['hour_key'] = df_detections['timestamp'].dt.floor('h')
+    df_traffic['hour_key'] = df_traffic['date_time'].dt.floor('h')
+
+    # detections + cameras
+    detections_with_zones = pd.merge(
+        df_detections, 
+        df_cameras[['camera_id', 'zone_id']], 
+        on='camera_id', 
+        how='left'
+    )
+
+    # now that we have the zone_id, we add traffic
+    validation = pd.merge(
+        detections_with_zones, 
+        df_traffic, 
+        on=['zone_id', 'hour_key'], 
+        how='inner'
+    )
+
+    validation = (
+        validation.drop(columns=['store_id_y'])
+                  .rename(columns={'store_id_x': 'store_id'})
+    )
+
+    # reorder
+    validation = validation[[
+        'detection_id','tracking_id',
+        'hour_key', 'timestamp', 'date_time', 'traffic_id',
+        'store_id', 'zone_id', 'camera_id',
+        'class_object',
+        'visitor_count', 'peak_people',
+        'confidence', 'coord_lims',
+        'average_time_in_store', 'bounce_rate'
+    ]]
+
+    with open(filename, 'a') as log_file:
+        log_file.write(f"--Joined Datasets--\n")
+        log_file.write(f"3 datasets have been created with joins at {pd.Timestamp.now()}\n")
+
 
 def main():
 
@@ -227,6 +310,9 @@ def main():
 
     insert_data(df_detections, "detections")
     insert_data(df_traffic, "traffic")
+    
+    build_joined_datasets(df_detections, df_traffic, df_stores, df_zones, df_cameras, df_sales, df_soldproducts)
+
 
 if __name__ == "__main__":
     main()
