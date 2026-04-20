@@ -266,11 +266,6 @@ def build_joined_datasets(df_detections, df_traffic, df_stores, df_zones, df_cam
         how='inner'
     )
 
-    validation = (
-        validation.drop(columns=['store_id_y'])
-                  .rename(columns={'store_id_x': 'store_id'})
-    )
-
     # reorder
     validation = validation[[
         'detection_id','tracking_id',
@@ -282,10 +277,15 @@ def build_joined_datasets(df_detections, df_traffic, df_stores, df_zones, df_cam
         'average_time_in_store', 'bounce_rate'
     ]]
 
+    # add IDs
+    infrastructure["infrastructure_id"] = range(1, len(infrastructure) + 1)
+    revenue["revenue_id"] = range(1, len(revenue) + 1)
+    validation["validation_id"] = range(1, len(validation) + 1)
     with open(filename, 'a') as log_file:
         log_file.write(f"--Joined Datasets--\n")
         log_file.write(f"3 datasets have been created with joins at {pd.Timestamp.now()}\n")
 
+    return infrastructure, revenue, validation
 
 def main():
 
@@ -305,14 +305,23 @@ def main():
     df_detections = pd.read_csv('./data/detections.csv')
     df_soldproducts = pd.read_csv('./data/soldproducts.csv')
 
-    df_traffic = build_traffic_dataframe_simple(df_detections, df_zones)
+    insert_data(df_stores, "stores")
+    insert_data(df_zones, "zones")
+    insert_data(df_cameras, "cameras")
+    insert_data(df_sales, "sales")
+    insert_data(df_soldproducts, "soldproducts")
+
     df_detections = filter_confidence_data(df_detections)
+    df_traffic = build_traffic_dataframe_simple(df_detections, df_zones)
+
 
     insert_data(df_detections, "detections")
     insert_data(df_traffic, "traffic")
     
-    build_joined_datasets(df_detections, df_traffic, df_stores, df_zones, df_cameras, df_sales, df_soldproducts)
-
+    infrastructure, revenue, validation = build_joined_datasets(df_detections, df_traffic, df_stores, df_zones, df_cameras, df_sales, df_soldproducts)
+    insert_data(infrastructure, "infrastructure")
+    insert_data(revenue, "revenue")
+    insert_data(validation, "validation")
 
 if __name__ == "__main__":
     main()
